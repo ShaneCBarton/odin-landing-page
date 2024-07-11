@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Orc Horde";
+    src: url('fonts/orc-horde.horde-bb.ttf');
+}
+
+.logo {
+    height: auto;
+    width: 100px;
+}
+
+.boyz {
+    height: auto;
+    width: 350px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Orc Horde";
+    color: #4f772d; 
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #132a13;
+    padding: 12px 256px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4f772d;
+}
+
+
+.cards {
+    display: flex;
+    padding-bottom: 48px;
+    gap: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 80px;
+    padding: 8px;;
+    border: none;
+    background: none;
+    background-color: #31572c;
+    color: #ecf39e;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.first-block {
+    background-color: #ecf39e;
+}
+
+.second-block {
+    background-color: #4f772d;
+}
+
+.third-block {
+    background-color: #ecf39e;
+}
+
+.footer {
+    background-color: #132a13;
+}
