@@ -57,12 +57,13 @@ a:visited {
 .cards {
     display: flex;
     padding-bottom: 48px;
-    gap: 36px;
+    justify-content: space-between;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    width: 350px;
 }
 
 button {
@@ -91,19 +92,40 @@ button {
 
 .image-block {
     outline: 2px solid #31572c;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 5px;
 }
 
 .subtext {
-    width: 100px;
+    width: 200px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .second-block {
     background-color: #4f772d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ecf39e;
+    padding: 64px;
+}
+
+.quote {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 500px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    margin: 0;
+    width: 500px;
+    text-align: right;
 }
 
 .third-block {
