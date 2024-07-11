@@ -9,10 +9,13 @@ h2, h4 {
 
 h4 {
     margin: 0;
+    font-weight: normal;
+    padding-bottom: 6px;
 }
 
 p {
     margin: 0;
+    padding-bottom: 12px;
 }
 
 .logo {
@@ -81,7 +84,7 @@ a:visited {
 
 button {
     width: 80px;
-    padding: 8px;;
+    padding: 8px;
     border: none;
     background: none;
     background-color: #31572c;
@@ -105,7 +108,7 @@ button {
 }
 
 .image-block {
-    outline: 2px solid #31572c;
+    outline: 3px solid #31572c;
     height: 200px;
     width: 200px;
     border-radius: 5px;
@@ -115,6 +118,7 @@ button {
     width: 200px;
     text-align: center;
     font-size: 16px;
+    padding-top: 12px;
 }
 
 .second-block {
@@ -122,7 +126,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ecf39e;
+    color:#132a13;
     padding: 64px;
 }
 
@@ -173,5 +177,14 @@ button {
 }
 
 .footer {
+    display: flex;
     background-color: #132a13;
+    color:#90a955;
+    justify-content: center;
+}
+
+.footer p {
+    width: 450px;
+    padding: 24px;
+    text-align: center;
 }
